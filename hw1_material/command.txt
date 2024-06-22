@@ -1,0 +1,6 @@
+python eval.py --image_path ./testdata/ex.png --gt_bf_path ./testdata/ex_gt_bf.png --gt_jbf_path ./testdata/ex_gt_jbf.png
+python main.py --image_path ./testdata/1.png --setting_path ./testdata/1_setting.txt
+python main.py --image_path ./testdata/2.png --setting_path ./testdata/2_setting.txt
+
+python eval.py --threshold 3.0 --image_path ./testdata/1.png --gt_path ./testdata/1_gt.npy
+python main.py --threshold 3.0 --image_path ./testdata/1.png
